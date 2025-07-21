@@ -16,10 +16,6 @@ from myTools import *
 
 import os
 
-os.environ["OPENAI_API_KEY"] = "sk-bCI5yo6f9TadMj4RRQXBLSGIfqJBuIb2J1BxPHfEUEcmiv9z"
-os.environ["OPENAI_API_PROXY"] = "https://sg.uiuiapi.com/v1"
-os.environ["ELEVEN_API_KEY"] = "sk_a376bdd617c72aff2ee320a9c911fda7d31ef5dd863d5c4a"
-
 api_key = os.getenv("OPENAI_API_KEY")
 api_base = os.getenv("OPENAI_API_PROXY")
 eleven_api_key = os.getenv("ELEVEN_API_KEY")
