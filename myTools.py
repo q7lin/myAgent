@@ -12,12 +12,6 @@ import requests
 
 import os
 
-YUANFENJU_API_KEY = "Jo9ygM2IEHdThGEqqTLdmqdO4"
-
-os.environ["OPENAI_API_KEY"] = "sk-bCI5yo6f9TadMj4RRQXBLSGIfqJBuIb2J1BxPHfEUEcmiv9z"
-os.environ["OPENAI_API_PROXY"] = "https://sg.uiuiapi.com/v1"
-os.environ["SERPAPI_API_KEY"] = "068b64425c91c585949dea83790462e3f1477a4e4a969b14525fe10d2157c775"
-
 api_key = os.getenv("OPENAI_API_KEY")
 api_base = os.getenv("OPENAI_API_PROXY")
 serp_api_key = os.getenv("SERPAPI_API_KEY")
