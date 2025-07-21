@@ -1,0 +1,9 @@
+fastapi==0.115.9
+langchain_core==0.1.28
+langchain_openai==0.0.5
+langchain_community==0.0.25
+langchain==0.1.10
+redis
+qdrant_client==1.7.1
+uvicorn==0.23.2
+elevenlabs==1.1.0
